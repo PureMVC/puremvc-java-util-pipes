@@ -7,9 +7,10 @@
  */
 package org.puremvc.java.multicore.utilities.pipes.plumbing;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Vector;
+import java.util.List;
 
 import org.puremvc.java.multicore.utilities.pipes.interfaces.IPipeFitting;
 import org.puremvc.java.multicore.utilities.pipes.interfaces.IPipeMessage;
@@ -37,7 +38,7 @@ public class Queue extends Pipe {
 	
 
 	protected String mode = QueueControlMessage.SORT;
-	protected Vector<IPipeMessage> messages = new Vector<IPipeMessage>();
+	protected List<IPipeMessage> messages = new ArrayList<IPipeMessage>();
 	
 	
 	public Queue( IPipeFitting output)
@@ -118,7 +119,7 @@ public class Queue extends Pipe {
 		boolean success=true;
 		while (!messages.isEmpty() ) 
 		{
-			IPipeMessage message = (IPipeMessage)messages.firstElement();
+			IPipeMessage message = (IPipeMessage)messages.get(0);
 			boolean ok = output.write( message );
 			messages.remove(message);
 			if ( !ok ) success = false;

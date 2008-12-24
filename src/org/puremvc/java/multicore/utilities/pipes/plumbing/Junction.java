@@ -8,6 +8,7 @@
 package org.puremvc.java.multicore.utilities.pipes.plumbing;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -48,7 +49,7 @@ public class Junction {
 	/**
 	 *  The names of the INPUT pipes
 	 */
-	protected  List<String> inputPipes = new ArrayList<String>();
+	protected  Collection<String> inputPipes = new ArrayList<String>();
 	
 	/**
 	 *  The names of the OUTPUT pipes

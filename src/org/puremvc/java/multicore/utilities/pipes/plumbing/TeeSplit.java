@@ -68,7 +68,12 @@ public class TeeSplit implements IPipeFitting {
 	 */
 	public IPipeFitting disconnect( )
 	{
-		return outputs.remove(outputs.size()-1);
+		if(outputs.isEmpty()){
+			return null;
+		} else {
+			return outputs.remove(outputs.size()-1);
+		}
+		
 	}
 	
 	/** 
@@ -93,7 +98,10 @@ public class TeeSplit implements IPipeFitting {
 	public boolean write( IPipeMessage message )
 	{
 		boolean success = true;
-		for (IPipeFitting element : outputs) {
+		//A copy is made to avoid comodification exception
+		Object[] tempArray = outputs.toArray();
+		for (int i = 0; i < tempArray.length; i++) {
+			IPipeFitting element =  (IPipeFitting)tempArray[i];
 			if (! element.write( message ) ) success = false;
 		}
 		return success;			
