@@ -1,23 +1,10 @@
-PureMVC Java MultiCore Utility - Pipes (Ported) - Legacy
+PureMVC Java Utility - Pipes
 --------------------------------------------------------------------------
 Release Date: 03/07/19
     Platform: Java
-     Version: 1 
+     Version: 2
     Revision: 0
-       Minor: 7
-      Author: Ima OpenSource <opensource@ima.eu> 
+       Minor: 0
+     Authors: Saad Shams <saad.shams@puremvc.org>     		
 --------------------------------------------------------------------------
-1.0.7
-- Moved to legacy. A brand new implementation of standard, multicore
-  and pipes has been built which are more closely in alignment with
-  the reference implementation.
-
-1.0.6
-- Christmas edition
-- Inner facade collection cloning to avoid comodifications
-- Collection are more generic
-- Java 1.5
-- Emulation of as3 capabilty to have more or less parametrers.
-
-1.0   
-- Initial Java MultiCore Pipes Utility Port.
+2.0 - Brand new update.

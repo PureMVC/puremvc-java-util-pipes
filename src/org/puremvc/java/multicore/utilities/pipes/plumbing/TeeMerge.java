@@ -1,14 +1,15 @@
-/* 
- PureMVC Java MultiCore Pipes Utility Port by Ima OpenSource <opensource@ima.eu>
- Maintained by Anthony Quinault <anthony.quinault@puremvc.org>
- PureMVC - Copyright(c) 2006-08 Futurescale, Inc., Some rights reserved. 
- Your reuse is governed by the Creative Commons Attribution 3.0 License 
- */
+//
+//  PureMVC Java Multicore Utility - Pipes
+//
+//  Copyright(c) 2019 Saad Shams <saad.shams@puremvc.org>
+//  Your reuse is governed by the Creative Commons Attribution 3.0 License
+//
+
 package org.puremvc.java.multicore.utilities.pipes.plumbing;
 
 import org.puremvc.java.multicore.utilities.pipes.interfaces.IPipeFitting;
 
-/** 
+/**
  * Merging Pipe Tee.
  * <P>
  * Writes the messages from multiple input pipelines into
@@ -16,43 +17,46 @@ import org.puremvc.java.multicore.utilities.pipes.interfaces.IPipeFitting;
  */
 public class TeeMerge extends Pipe {
 
-	/**
-	 * Constructor.
-	 * <P>
-	 */
-	public TeeMerge(  ) 
-	{
-		super();
-	}
-	
-	/**
-	 * Constructor.
-	 * <P>
-	 * Create the TeeMerge and the two optional constructor inputs.
-	 * This is the most common configuration, though you can connect
-	 * as many inputs as necessary by calling <code>connectInput</code>
-	 * repeatedly.</P>
-	 * <P>
-	 * Connect the single output fitting normally by calling the 
-	 * <code>connect</code> method, as you would with any other IPipeFitting.</P>
-	 */
-	public TeeMerge( IPipeFitting input1, IPipeFitting input2 ) 
-	{
-		if (input1!=null) connectInput(input1);
-		if (input2!=null) connectInput(input2);
-	}
-	
-	
-	/** 
-	 * Connect an input IPipeFitting.
-	 * <P>
-	 * NOTE: You can connect as many inputs as you want
-	 * by calling this method repeatedly.</P>
-	 * 
-	 * @param input the IPipeFitting to connect for input.
-	 */
-	public Boolean connectInput( IPipeFitting input )
-	{
-		return input.connect(this);
-	}
+    // Constructor
+    public TeeMerge() {
+
+    }
+
+    // Constructor
+    public TeeMerge(IPipeFitting input) {
+        this(input, null);
+    }
+
+    /**
+     * Constructor.
+     * <P>
+     * Create the TeeMerge and the two optional constructor inputs.
+     * This is the most common configuration, though you can connect
+     * as many inputs as necessary by calling <code>connectInput</code>
+     * repeatedly.</P>
+     * <P>
+     * Connect the single output fitting normally by calling the
+     * <code>connect</code> method, as you would with any other IPipeFitting.</P>
+     *
+     * @param input1 pipe 1
+     * @param input2 pipe 2
+     */
+    public TeeMerge(IPipeFitting input1, IPipeFitting input2) {
+        if(input1 != null) connectInput(input1);
+        if(input2 != null) connectInput(input2);
+    }
+
+    /**
+     * Connect an input IPipeFitting.
+     * <P>
+     * NOTE: You can connect as many inputs as you want
+     * by calling this method repeatedly.</P>
+     *
+     * @param input the IPipeFitting to connect for input.
+     * @return true if pipe connection was successful.
+     */
+    public boolean connectInput(IPipeFitting input) {
+        return input.connect(this);
+    }
+
 }

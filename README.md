@@ -1,20 +1,24 @@
-## [PureMVC](http://puremvc.github.com/) [Java](https://github.com/PureMVC/puremvc-java-multicore-framework/wiki) Utility: Pipes - LEGACY IMPLEMENTATION
-### For the current implementation go [here](https://github.com/PureMVC/puremvc-java-util-pipes/wiki)
-This utility provides the capability for creating pipelines that pass messages between Cores in a PureMVC Java MultiCore-based application. Pipelines can contain filters, queues, splitting and merging tees, and more.
+## [PureMVC](http://puremvc.github.com/) [Java](https://github.com/PureMVC/puremvc-java-multicore-framework/wiki) Utility: Pipes
 
-* [Unit Tests](https://github.com/PureMVC/puremvc-java-util-pipes-unittests/wiki)
-* [Discussion](http://forums.puremvc.org/index.php?topic=742.0)
-* [Overview Presentation - Intercore Communications](http://puremvc.tv/#P002/T220)
+This utility provides the capability for creating pipelines that pass messages between Cores in a [PureMVC Java MultiCore](https://github.com/PureMVC/puremvc-java-multicore-framework/wiki) - based application. 
+Pipelines can contain filters, queues, splitting and merging tees, and more. Unit Tests included.
 
-## Status
-Legacy - [Version 1.0.7](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
+* [API Docs](http://puremvc.org/pages/docs/Java/pipes/)
+* [Unit Tests](http://puremvc.github.io/pages/images/screenshots/PureMVC-Shot-Java-Pipes-UnitTests.png)
+* [Discussion](http://forums.puremvc.org/index.php/topic,742.0.html)
+* [Pipes Overview Presentation](http://puremvc.tv/#P002/T220)
+* [Legacy Implementation](https://github.com/PureMVC/puremvc-java-util-pipes/tree/1.0.7)
 
 ## Platforms / Technologies
-* [Java](http://en.wikipedia.org/wiki/Java_(programming_language\))
+* [Java](https://en.wikipedia.org/wiki/Java_(programming_language))
+* [Android](https://en.wikipedia.org/wiki/Android_(operating_system))
+
+## Status
+Production - [Version 2.0](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
 
 ## License
-* PureMVC Java MultiCore Utility - Pipes (Ported) / Legacy - Copyright © 2008 by Ima OpenSource
-* PureMVC - Copyright © 2006-2012 Futurescale, Inc.
+* PureMVC Java MultiCore Utility – Pipes - Copyright © 2019 [Saad Shams](https://www.linkedin.com/in/muizz)
+* PureMVC - Copyright © 2019 [Futurescale, Inc.](http://futurescale.com/)
 * All rights reserved.
 
 * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
