@@ -7,7 +7,7 @@ This utility provides the capability for creating pipelines that pass messages b
 * [Overview Presentation - Intercore Communications](http://puremvc.tv/#P002/T220)
 
 ## Status
-Legacy - [Version 1.0.6](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
+Legacy - [Version 1.0.7](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
 
 ## Platforms / Technologies
 * [Java](http://en.wikipedia.org/wiki/Java_(programming_language\))
