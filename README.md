@@ -9,12 +9,22 @@ Pipelines can contain filters, queues, splitting and merging tees, and more. Uni
 * [Pipes Overview Presentation](http://puremvc.tv/#P002/T220)
 * [Legacy Implementation](https://github.com/PureMVC/puremvc-java-util-pipes/tree/1.0.7)
 
+##Maven Installation
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.puremvc</groupId>
+        <artifactId>puremvc-multicore-util-pipes</artifactId>
+    </dependency>
+</dependencies>
+```
+
 ## Platforms / Technologies
 * [Java](https://en.wikipedia.org/wiki/Java_(programming_language))
 * [Android](https://en.wikipedia.org/wiki/Android_(operating_system))
 
 ## Status
-Production - [Version 2.0](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
+Production - [Version 2.1](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
 
 ## License
 * PureMVC Java MultiCore Utility – Pipes - Copyright © 2019 [Saad Shams](https://www.linkedin.com/in/muizz)
