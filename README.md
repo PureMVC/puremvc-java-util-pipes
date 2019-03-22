@@ -9,7 +9,7 @@ Pipelines can contain filters, queues, splitting and merging tees, and more. Uni
 * [Pipes Overview Presentation](http://puremvc.tv/#P002/T220)
 * [Legacy Implementation](https://github.com/PureMVC/puremvc-java-util-pipes/tree/1.0.7)
 
-##Maven Installation
+## Maven Installation
 ```xml
 <dependencies>
     <dependency>
