@@ -1,12 +1,14 @@
 PureMVC Java Utility - Pipes
 --------------------------------------------------------------------------
-Release Date: 03/22/19
+Release Date: 03/17/20
     Platform: Java
      Version: 2
-    Revision: 1
+    Revision: 2
        Minor: 0
      Authors: Saad Shams <saad.shams@puremvc.org>     		
 --------------------------------------------------------------------------
+2.2 - Update to Multicore 2.2
+
 2.1 - Maven Integration
 
 2.0 - Brand new update.

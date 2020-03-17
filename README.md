@@ -15,6 +15,7 @@ Pipelines can contain filters, queues, splitting and merging tees, and more. Uni
     <dependency>
         <groupId>org.puremvc</groupId>
         <artifactId>puremvc-multicore-util-pipes</artifactId>
+        <version>2.2</version>
     </dependency>
 </dependencies>
 ```
@@ -24,11 +25,11 @@ Pipelines can contain filters, queues, splitting and merging tees, and more. Uni
 * [Android](https://en.wikipedia.org/wiki/Android_(operating_system))
 
 ## Status
-Production - [Version 2.1](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
+Production - [Version 2.2](https://github.com/PureMVC/puremvc-java-util-pipes/blob/master/VERSION)
 
 ## License
-* PureMVC Java MultiCore Utility – Pipes - Copyright © 2019 [Saad Shams](https://www.linkedin.com/in/muizz)
-* PureMVC - Copyright © 2019 [Futurescale, Inc.](http://futurescale.com/)
+* PureMVC Java MultiCore Utility – Pipes - Copyright © 2020 [Saad Shams](https://www.linkedin.com/in/muizz)
+* PureMVC - Copyright © 2020 [Futurescale, Inc.](http://futurescale.com/)
 * All rights reserved.
 
 * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
